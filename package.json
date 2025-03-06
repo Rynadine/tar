@@ -1,13 +1,16 @@
 {
   "name": "tar",
   "version": "1.0.0",
-  "main": "./src/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ./src/index.js"
+    "run": "npx ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
